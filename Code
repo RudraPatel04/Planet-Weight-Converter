@@ -1,0 +1,35 @@
+#include <iostream>
+
+int main() {
+  double earthw;
+  int planet;
+  std::cout << "What is your Earth weight?\n";
+  std::cin >> earthw;
+  std::cout << "What planet are you fighting on?\n";
+  std::cin >> planet;
+ if (planet == 1)
+ {
+   double weightMer = earthw * 0.38;
+   std::cout << "Your weight on Planet Merury is " << weightMer << ".\n";
+   }
+    if ( planet == 2) {
+   double weightVen = earthw * 0.91;
+   std::cout << "Your weight on Planet Venus is " << weightVen << ".\n";
+ } if ( planet == 3) {
+   double weightMar = earthw * 0.38;
+   std::cout << "Your weight on Planet Mars is " << weightMar << ".\n";
+ } if ( planet == 4) {
+   double weightJup = earthw * 2.34;
+   std::cout << "Your weight on Planet Jupiter is " << weightJup << ".\n";
+ }  if ( planet == 5) {
+   double weightSat = earthw * 1.06;
+   std::cout << "Your weight on Planet Saturn is " << weightSat << ".\n";
+ }  if ( planet == 6) {
+   double weightUra = earthw * 0.92;
+   std::cout << "Your weight on Planet Uranus is " << weightUra << ".\n";
+ }  if ( planet == 7) {
+   double weightNep = earthw * 1.19;
+   std::cout << "Your weight on Planet Neptune is " << weightNep << ".\n";
+ }
+   
+}
